@@ -174,8 +174,8 @@ function rollTheDices(numRolls) {
   return result;
 }
 
-var rolls = 5;
-var rollResult = rollTheDices(rolls);
+let rolls = 5;
+let rollResult = rollTheDices(rolls);
 
 console.log(rollResult.sum);
 console.log(rollResult.values);
